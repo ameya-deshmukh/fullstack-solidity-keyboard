@@ -9,8 +9,8 @@ contract Keyboards{
     
   }
 
-  function create(string calldata _description2) external {
-    createdKeyboards.push(_description2;
+  function create(string calldata _description) external {
+    createdKeyboards.push(_description);
 
   }
 }
